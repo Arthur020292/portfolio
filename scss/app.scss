@@ -50,6 +50,9 @@
 @include motion-ui-animations;
 
 
+// google fonts
+@import 'https://fonts.googleapis.com/css?family=Montserrat|Open+Sans|Oxygen|Raleway';
+
 // vendor
 @import "vendor/font-awesome-4.6.3/scss/font-awesome.scss";
 
@@ -63,3 +66,4 @@
 @import "partials/color.scss";
 @import "partials/override.scss";
 @import "partials/container.scss";
+@import "partials/cards.scss";
