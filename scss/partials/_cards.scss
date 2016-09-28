@@ -96,7 +96,6 @@
 		padding-bottom: .5rem;
 		margin-bottom: 0;
 		div {
-			// @extend .make-center;
 			a {
 				display: inline-block;
 				border-radius: 5px;
@@ -108,28 +107,21 @@
 					color: #FA6900;
 					i {
 						transition: all .25s ease-out;
-
 						transform: rotateY(360deg);
 					}
 				}
 			}
-			span {
-
-				color: #E1E1E1;
-			}
 		}
-		
 	}
 
 	&:hover {
 		.img {
 			img {
-			transition: all .25s ease-out;
-			-moz-transform: scale(1.1);
-			-webkit-transform: scale(1.1);
-			transform: scale(1.1);	
+				transition: all .25s ease-out;
+				-moz-transform: scale(1.1);
+				-webkit-transform: scale(1.1);
+				transform: scale(1.1);	
 			}
-			
 			// background: linear-gradient(141deg, #0fb8ad 0%, #1fc8db 51%, #2cb5e8 75%);
 		}
 		div.text {
