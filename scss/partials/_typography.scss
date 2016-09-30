@@ -1,23 +1,27 @@
-.following {
+.blog {
 	a {
 		div {
 			// @extend .ds-1;
-			border-left: 4px solid rgba(#FA6900, .3);
-			@extend .mb-1;
+			// border-left: 4px solid rgba(#FA6900, .3);
+			@extend .pb-2;
+			@extend .pt-1;
 			@extend .padding-half;
-			@extend .hoverme;
-			border-bottom: 1px solid rgba(#323232, .05);
+			// @extend .hoverme;
+			// border-bottom: 1px solid rgba(#323232, .05);
 			border-top: 1px solid rgba(#323232, .05);
-			
-			h5 {
+			transition: all .25s ease-out;
+			h5, h3, h2 {
 				color: #FA6900;
+				font-weight: bold;
 			}
 			p {
 				color: #737373;
 				font-size: .9rem;
 			}
 			&:hover {
-				border-left: 4px solid #FA6900;
+				transition: all .25s ease-out;
+				background-color: rgba(#E1E1E1, .5)
+				// border-left: 4px solid #FA6900;
 			}
 		}
 	}
